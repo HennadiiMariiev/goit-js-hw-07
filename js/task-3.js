@@ -1,4 +1,4 @@
-import images from '/js/images.js'
+import images from '../js/images.js'
 
 const galleryEl = document.querySelector('#gallery');
 
