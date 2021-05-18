@@ -6,6 +6,6 @@ nameInputEl.addEventListener('input', onInputChange);
 function onInputChange(event) {
     nameOutputEl.textContent = nameInputEl.value;
     
-    if(nameInputEl.value === '')
+    if(nameInputEl.value === '' || nameInputEl.value.trim(' ') === '')
         nameOutputEl.textContent += 'незнакомец';
 }
